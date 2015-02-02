@@ -1,7 +1,7 @@
-===== Common C Bug Programs + xmalloc Library =====
+# Common C Bug Programs + xmalloc Library
 Author: Cody Moore
 
-== Description ==
+## Description
 
 This directory consists of two different types of programs.
 All the programs with the names of prog-XX.c are different
@@ -18,7 +18,7 @@ Included with the library is an example program that links the
 library so that you an better understand how to use it in your
 own code.
 
-== Installation ==
+## Installation
 
 First thing you need to do to compile all programs is to run:
 
@@ -46,7 +46,7 @@ You can compile the xmalloc library by running the command:
 This builds a file "xmalloc.o" which you can then link to any source you
 write and then write:
 
-#include "xmalloc.h"
+   #include "xmalloc.h"
 
 Finally you can compile the example code provided with the library by running
 
@@ -61,7 +61,7 @@ If you wish you can also clean your directory by running:
 
    make clean
 
-== Notes ==
+## Notes
 
 FOR SOLARIS: If you are running solaris please use gmake for all commands instead of make.
 
